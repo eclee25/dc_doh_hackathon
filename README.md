@@ -36,11 +36,11 @@ $ git remote -v
   origin          <your/forked/url> (push)
   origin          <your/forked/url> (fetch)
 ```
-Now instead of plain `git push` and `git fetch`, use these:
+Now instead of plain `git push` and `git pull`, use these:
 
 ```
 $ git push origin <branch-name>       #pushes to your forked repo
-$ git fetch dohhackathon <branch-name>   #fetches from the dohhackathon repo
+$ git pull dohhackathon <branch-name>   #fetches and merges from the dohhackathon repo
 ```
 Here’s [more information](https://github.com/blog/2042-git-2-5-including-multiple-worktrees-and-triangular-workflows#improved-support-for-triangular-workflows) on setting up triangular workflows (scroll to “Improved support…”).
 
